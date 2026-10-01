@@ -1,0 +1,82 @@
+import type { Dict } from "./en";
+
+export const vi: Dict = {
+  meta: {
+    siteTitle: "Nhật — Product Builder & Lập trình viên hợp đồng",
+    siteDescription:
+      "Mình biến ý tưởng thành phần mềm hữu ích. Sản phẩm, công cụ mã nguồn mở và ghi chép về AI, công nghệ.",
+    rssTitle: "Nhật — Sổ tay của người xây dựng",
+    rssDescription: "AI, kỹ thuật và cách xây dựng sản phẩm hữu ích.",
+  },
+  skip: "Chuyển đến nội dung",
+  language: "Ngôn ngữ",
+  nav: {
+    work: "Dự án",
+    writing: "Bài viết",
+    talk: "Trò chuyện",
+    menuOpen: "Mở menu",
+    menuClose: "Đóng menu",
+    main: "Điều hướng chính",
+    homeLabel: "Trang chủ Nhật",
+  },
+  footer: {
+    tagline: "Làm bằng sự tò mò. Xây dựng tại Việt Nam.",
+    email: "Email",
+    rss: "RSS",
+  },
+  home: {
+    hello: "Chào, mình là Nhật",
+    title: "Kỹ sư phần mềm,\nProduct builder,\nLập trình viên hợp đồng",
+    explore: "Xem dự án",
+    github: "GitHub",
+  },
+  work: {
+    title: "Dự án",
+    live: "Demo",
+    source: "Mã nguồn",
+    docs: "Tài liệu",
+  },
+  contact: {
+    title: "Liên hệ",
+    placeholder: "Gửi lời chào hoặc kể mình nghe bạn đang xây gì…",
+    send: "Gửi",
+  },
+  art: {
+    label: "Một ý tưởng nhỏ. Một thứ có thật.",
+    startsWith: "Mọi thứ bắt đầu từ",
+    whatIf: "nếu như",
+    shippedTitle: "Từ ý tưởng đến ra mắt.",
+    shippedSub: "Thiết kế. Xây dựng. Bàn giao.",
+    mode: "chế độ xây dựng",
+    note: "Luôn đang làm gì đó",
+    buildPassed: "build thành công",
+    noErrors: "0 lỗi",
+    alt: "Minh họa không gian làm việc kết nối ý tưởng, code và sản phẩm đã ra mắt",
+  },
+  writing: {
+    title: "Bài viết",
+    description: "Ghi chép về AI, kỹ thuật và cách xây dựng sản phẩm hữu ích.",
+    all: "Tất cả bài viết",
+    topicsLabel: "Chủ đề bài viết",
+    topics: {
+      All: "Tất cả",
+      "AI News": "Tin AI",
+      "AI Research": "Nghiên cứu AI",
+      AI: "AI",
+      Engineering: "Kỹ thuật",
+      Building: "Xây dựng",
+    },
+    rss: "RSS ↗",
+    empty: "Chưa có bài viết nào trong chủ đề này.",
+    back: "← Tất cả bài viết",
+    minRead: "phút đọc",
+    toc: "Mục lục",
+    projects: "Khám phá các dự án",
+    notFound: "Không tìm thấy bài viết",
+  },
+  notFound: {
+    title: "Trang này đã đi lạc.",
+    text: "Cùng quay lại với điều hữu ích hơn nhé.",
+    back: "Về trang chủ",
+  },
+};

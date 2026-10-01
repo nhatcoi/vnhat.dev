@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nhat — Product Builder & Contract Developer
 
-## Getting Started
+A personal portfolio built with Next.js, React, TypeScript, and custom CSS illustrations.
 
-First, run the development server:
-
-```bash
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. Run `npm run build` for production, `npm run lint` for linting, and `node --test tests/publication.test.mjs` for publication timing tests.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `/`: selected products, open source, writing, introduction, and contact.
+- `/projects`: filterable portfolio with individual project pages.
+- `/writing`: topic filters and article pages.
+- `/about`, `/contact`: engineering services and email contact.
+- `/feed.xml`: RSS for published posts.
+- `/resume`: redirects to the new about page.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Project content lives in `data/projects.ts`; articles live in `data/posts.ts`.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See [writing and scheduling](docs/writing.md) for 06:00 Vietnam publication, and [design notes](docs/design.md) for the design direction and provenance. Scheduled publication is implemented; automatic AI research and generation are not connected. Keep the application dynamically hosted to support time-based publication.

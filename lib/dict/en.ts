@@ -1,0 +1,82 @@
+export const en = {
+  meta: {
+    siteTitle: "Nhat — Product Builder & Contract Developer",
+    siteDescription:
+      "I turn ideas into useful software. Products, open-source tools, and notes on AI and technology.",
+    rssTitle: "Nhat — The builder’s notebook",
+    rssDescription: "AI, engineering, and building useful products.",
+  },
+  skip: "Skip to content",
+  language: "Language",
+  nav: {
+    work: "Work",
+    writing: "Writing",
+    talk: "Let’s talk",
+    menuOpen: "Open menu",
+    menuClose: "Close menu",
+    main: "Main navigation",
+    homeLabel: "Nhat home",
+  },
+  footer: {
+    tagline: "Made with curiosity. Built in Vietnam.",
+    email: "Email",
+    rss: "RSS",
+  },
+  home: {
+    hello: "Hey, I’m Nhat",
+    title: "Software Engineer,\nProduct builder,\nContract developer",
+    explore: "See my work",
+    github: "GitHub",
+  },
+  work: {
+    title: "Work",
+    live: "Live",
+    source: "Source",
+    docs: "Docs",
+  },
+  contact: {
+    title: "Contact",
+    placeholder: "Say hi, or tell me what you’re building…",
+    send: "Send",
+  },
+  art: {
+    label: "A small idea. A real thing.",
+    startsWith: "It starts with",
+    whatIf: "what if",
+    shippedTitle: "From idea to shipped.",
+    shippedSub: "Designed. Built. Delivered.",
+    mode: "builder mode",
+    note: "Always making something",
+    buildPassed: "build passed",
+    noErrors: "0 errors",
+    alt: "Illustrated builder workspace connecting an idea, code and a shipped product",
+  },
+  writing: {
+    title: "Writing",
+    description: "Notes on AI, engineering, and building useful products.",
+    all: "All writing",
+    topicsLabel: "Writing topics",
+    topics: {
+      All: "All",
+      "AI News": "AI News",
+      "AI Research": "AI Research",
+      AI: "AI",
+      Engineering: "Engineering",
+      Building: "Building",
+    } as Record<string, string>,
+    rss: "RSS feed ↗",
+    empty: "No posts in this topic yet.",
+    back: "← All writing",
+    minRead: "min read",
+    toc: "On this page",
+    projects: "Explore the projects",
+    notFound: "Post not found",
+  },
+  notFound: {
+    title: "This page wandered off.",
+    text: "Let’s get you back to something useful.",
+    back: "Back home",
+  },
+};
+
+export type Dict = typeof en;
